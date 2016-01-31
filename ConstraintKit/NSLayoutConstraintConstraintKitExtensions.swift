@@ -19,21 +19,33 @@ enum LayoutConstraintError: ErrorType {
 
 extension NSLayoutConstraint {
 
+    /// Convenience function to chain a priority change.
     public func clk_withPriority(priority: UILayoutPriority) -> NSLayoutConstraint {
         self.priority = priority
         return self
     }
 
+    /// Activates the constraint or updates an existing constraint to achieve the same effect.
+    /// Disables `translatesAutoresizingMaskIntoConstraints` on views as needed.
+    /// Uses the `.UpdateExisting` constraint activation policy, so when possible, an existing will be reused.
+    ///
+    /// - returns: The newly activated or updated constraints.
     public func clk_activate() -> NSLayoutConstraint {
         return clk_activate(.UpdateExisting)
     }
 
+    /// Deactivates the constraint plus any other identical ones.
     public func clk_deactivate() -> [NSLayoutConstraint] {
         let constraintsToDeactivate = [self] + clk_findIdentical()
         NSLayoutConstraint.deactivateConstraints(constraintsToDeactivate)
         return constraintsToDeactivate
     }
 
+    /// Activates the constraint.
+    /// Disables `translatesAutoresizingMaskIntoConstraints` on views as needed.
+    /// With the `.UpdateExisting` constraint activation policy, existing constraints will be used with updated constants and/or priorities whenever possible.
+    /// With the `.IgnoreExisting` constraint activation policy, no attempt will be made to reuse existing constraints and the constraint instance will be used. Use this for installing multiple similar constraints with different layout priorities.
+    /// - returns: The newly activated or updated constraint.
     @objc(clk_activateWithPolicy:)
     public func clk_activate(policy: CLKEquivalentConstraintPolicy) -> NSLayoutConstraint {
         do {

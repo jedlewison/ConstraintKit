@@ -32,11 +32,9 @@
 		85E97DAB1C557E950067CE11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E97DA91C557E950067CE11 /* LaunchScreen.storyboard */; };
 		85E97DB61C557E950067CE11 /* ConstraintKitHostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E97DB51C557E950067CE11 /* ConstraintKitHostTests.swift */; };
 		85E97DBF1C557ED80067CE11 /* NSLayoutConstraintConstraintKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E97DBE1C557ED80067CE11 /* NSLayoutConstraintConstraintKitExtensions.swift */; };
-		85E97DC11C557EEA0067CE11 /* UIViewConstraintKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E97DC01C557EEA0067CE11 /* UIViewConstraintKitExtensions.swift */; };
+		85E97DC11C557EEA0067CE11 /* UIKit+ConstraintKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E97DC01C557EEA0067CE11 /* UIKit+ConstraintKit.swift */; };
 		85E97DC21C557F320067CE11 /* NSLayoutConstraintConstraintKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E97DBE1C557ED80067CE11 /* NSLayoutConstraintConstraintKitExtensions.swift */; };
-		85E97DC31C557F320067CE11 /* UIViewConstraintKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E97DC01C557EEA0067CE11 /* UIViewConstraintKitExtensions.swift */; };
-		85E97DC51C55E7160067CE11 /* LayoutConstraintConfiguring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E97DC41C55E7160067CE11 /* LayoutConstraintConfiguring.swift */; };
-		85E97DC61C55E7A50067CE11 /* LayoutConstraintConfiguring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E97DC41C55E7160067CE11 /* LayoutConstraintConfiguring.swift */; };
+		85E97DC31C557F320067CE11 /* UIKit+ConstraintKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E97DC01C557EEA0067CE11 /* UIKit+ConstraintKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +62,6 @@
 		858D502A1C5DA06300B8A432 /* CLKSizeAnchorGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLKSizeAnchorGroup.swift; sourceTree = "<group>"; };
 		858D502D1C5DB19200B8A432 /* CLKAnchorGroupProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLKAnchorGroupProtocols.swift; sourceTree = "<group>"; };
 		858D50301C5DD9A700B8A432 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		85CD09BF1C58C14D001BEA9E /* ConstraintKitHost-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConstraintKitHost-Bridging-Header.h"; sourceTree = "<group>"; };
 		85CD09C01C58C14D001BEA9E /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		85CD09C11C58C14D001BEA9E /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		85E97D801C557E700067CE11 /* ConstraintKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConstraintKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,8 +81,7 @@
 		85E97DB51C557E950067CE11 /* ConstraintKitHostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintKitHostTests.swift; sourceTree = "<group>"; };
 		85E97DB71C557E950067CE11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85E97DBE1C557ED80067CE11 /* NSLayoutConstraintConstraintKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintConstraintKitExtensions.swift; sourceTree = "<group>"; };
-		85E97DC01C557EEA0067CE11 /* UIViewConstraintKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewConstraintKitExtensions.swift; sourceTree = "<group>"; };
-		85E97DC41C55E7160067CE11 /* LayoutConstraintConfiguring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintConfiguring.swift; sourceTree = "<group>"; };
+		85E97DC01C557EEA0067CE11 /* UIKit+ConstraintKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+ConstraintKit.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,8 +147,7 @@
 				85E97D851C557E700067CE11 /* Info.plist */,
 				858D502D1C5DB19200B8A432 /* CLKAnchorGroupProtocols.swift */,
 				85E97DBE1C557ED80067CE11 /* NSLayoutConstraintConstraintKitExtensions.swift */,
-				85E97DC41C55E7160067CE11 /* LayoutConstraintConfiguring.swift */,
-				85E97DC01C557EEA0067CE11 /* UIViewConstraintKitExtensions.swift */,
+				85E97DC01C557EEA0067CE11 /* UIKit+ConstraintKit.swift */,
 				85706ABC1C5D4D0700AE86A1 /* CLKAnchorGroup.swift */,
 				858D50241C5DA04800B8A432 /* CLKCenterAnchorGroup.swift */,
 				858D50271C5DA05500B8A432 /* CLKEdgesAnchorGroup.swift */,
@@ -182,7 +177,6 @@
 				85E97DA71C557E950067CE11 /* Assets.xcassets */,
 				85E97DA91C557E950067CE11 /* LaunchScreen.storyboard */,
 				85E97DAC1C557E950067CE11 /* Info.plist */,
-				85CD09BF1C58C14D001BEA9E /* ConstraintKitHost-Bridging-Header.h */,
 			);
 			path = ConstraintKitHost;
 			sourceTree = "<group>";
@@ -367,12 +361,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				858D502B1C5DA06300B8A432 /* CLKSizeAnchorGroup.swift in Sources */,
-				85E97DC51C55E7160067CE11 /* LayoutConstraintConfiguring.swift in Sources */,
 				858D50311C5DD9A700B8A432 /* README.md in Sources */,
 				85706ABD1C5D4D0700AE86A1 /* CLKAnchorGroup.swift in Sources */,
 				858D50251C5DA04800B8A432 /* CLKCenterAnchorGroup.swift in Sources */,
 				858D502E1C5DB19200B8A432 /* CLKAnchorGroupProtocols.swift in Sources */,
-				85E97DC11C557EEA0067CE11 /* UIViewConstraintKitExtensions.swift in Sources */,
+				85E97DC11C557EEA0067CE11 /* UIKit+ConstraintKit.swift in Sources */,
 				85E97DBF1C557ED80067CE11 /* NSLayoutConstraintConstraintKitExtensions.swift in Sources */,
 				85706AC01C5D4D9000AE86A1 /* LayoutAnchor.swift in Sources */,
 				858D50281C5DA05500B8A432 /* CLKEdgesAnchorGroup.swift in Sources */,
@@ -393,10 +386,9 @@
 			files = (
 				858D50291C5DA05500B8A432 /* CLKEdgesAnchorGroup.swift in Sources */,
 				85CD09C21C58C14D001BEA9E /* TestViewController.m in Sources */,
-				85E97DC31C557F320067CE11 /* UIViewConstraintKitExtensions.swift in Sources */,
+				85E97DC31C557F320067CE11 /* UIKit+ConstraintKit.swift in Sources */,
 				85706ABE1C5D4D0700AE86A1 /* CLKAnchorGroup.swift in Sources */,
 				858D50321C5DD9A700B8A432 /* README.md in Sources */,
-				85E97DC61C55E7A50067CE11 /* LayoutConstraintConfiguring.swift in Sources */,
 				85E97DA31C557E950067CE11 /* ViewController.swift in Sources */,
 				858D502C1C5DA06300B8A432 /* CLKSizeAnchorGroup.swift in Sources */,
 				858D502F1C5DB19200B8A432 /* CLKAnchorGroupProtocols.swift in Sources */,
@@ -603,7 +595,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.magicappfactory.ConstraintKitHost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "ConstraintKitHost/ConstraintKitHost-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -617,7 +609,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.magicappfactory.ConstraintKitHost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "ConstraintKitHost/ConstraintKitHost-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};

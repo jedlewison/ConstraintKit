@@ -8,17 +8,20 @@
 
 import UIKit
 
+/// An anchor group for constraining to edges. Uses top, bottom, leading, and trailing anchors except with viewController's, where is uses top and bottom layout guides.
 public final class CLKEdgesAnchorGroup: CLKAnchorGroup, CLKAnchorGroupSubclassProtocol {
 
     public typealias Constant = UIEdgeInsets
 
-    func with(insets: UIEdgeInsets? = nil, priority: UILayoutPriority? = nil) -> Self {
+    /// Specify insets and/or priority values for the anchor group's constraints. Must be called prior to activation.
+    public func with(insets: UIEdgeInsets? = nil, priority: UILayoutPriority? = nil) -> Self {
         with(insets ?? config.insets, priority: priority ?? config.priority)
         return self
     }
 
+    /// Specify insets and priority values for the anchor group's constraints. Must be called prior to activation.
     @objc(withConstant:priority:)
-    func with(insets: UIEdgeInsets, priority: UILayoutPriority) -> Self {
+    public func with(insets: UIEdgeInsets, priority: UILayoutPriority) -> Self {
         config.insets = insets
         config.priority = priority
         return self

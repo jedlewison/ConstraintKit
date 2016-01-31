@@ -8,9 +8,10 @@
 
 import UIKit
 
+/// `CLKEquivalentConstraintPolicy` defines how ConstraintKit handles existing constraints when activating or updating constraints.
 @objc public enum CLKEquivalentConstraintPolicy: Int {
-    case IgnoreExisting
-    case UpdateExisting
+    case IgnoreExisting /// Completely ignore existing constraints. Useful when installing constraints with multiple priorities.
+    case UpdateExisting /// Default. Update existing constraints when possible and remove duplicates.
 }
 
 protocol CLKAnchorGroupProtocol: NSObjectProtocol {

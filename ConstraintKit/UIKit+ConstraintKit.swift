@@ -19,14 +19,17 @@ public protocol CLKAnchorable: NSObjectProtocol {
 
 extension UIView: CLKAnchorable {
 
+    /// An anchor group representing the view's edges.
     public var clk_edgesAnchor: CLKEdgesAnchorGroup {
         return CLKEdgesAnchorGroup(self)
     }
 
+    /// An anchor group representing the view's size.
     public var clk_sizeAnchor: CLKSizeAnchorGroup {
         return CLKSizeAnchorGroup(self)
     }
 
+    /// An anchor group representing the view's size.
     public var clk_centerAnchor: CLKCenterAnchorGroup {
         return CLKCenterAnchorGroup(self)
     }
@@ -35,14 +38,17 @@ extension UIView: CLKAnchorable {
 
 extension UILayoutGuide: CLKAnchorable {
 
+    /// An anchor group representing the guide's edges.
     public var clk_edgesAnchor: CLKEdgesAnchorGroup {
         return CLKEdgesAnchorGroup(self)
     }
 
+    /// An anchor group representing the guide's size.
     public var clk_sizeAnchor: CLKSizeAnchorGroup {
         return CLKSizeAnchorGroup(self)
     }
 
+    /// An anchor group representing the guide's center.
     public var clk_centerAnchor: CLKCenterAnchorGroup {
         return CLKCenterAnchorGroup(self)
     }
@@ -51,14 +57,17 @@ extension UILayoutGuide: CLKAnchorable {
 
 extension UIViewController: CLKAnchorable {
 
+    /// An anchor group representing the viewController's view's horizontal edges and top and bottom layout guides.
     public var clk_edgesAnchor: CLKEdgesAnchorGroup {
         return CLKEdgesAnchorGroup(self)
     }
 
+    /// An anchor group representing the viewController's view's size.
     public var clk_sizeAnchor: CLKSizeAnchorGroup {
         return CLKSizeAnchorGroup(self)
     }
 
+    /// An anchor group representing the viewController's view's center.
     public var clk_centerAnchor: CLKCenterAnchorGroup {
         return CLKCenterAnchorGroup(self)
     }
