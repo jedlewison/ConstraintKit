@@ -1,0 +1,16 @@
+PODS:
+  - ConstraintKit (0.0.1)
+
+DEPENDENCIES:
+  - ConstraintKit (from `.`)
+
+EXTERNAL SOURCES:
+  ConstraintKit:
+    :path: "."
+
+SPEC CHECKSUMS:
+  ConstraintKit: 72b7b3e9c03a9661dd12855f0d162fd345202aa4
+
+PODFILE CHECKSUM: 90924fbe2309c801cf4b35cae2c448bdf7aa06d8
+
+COCOAPODS: 1.0.0.beta.2

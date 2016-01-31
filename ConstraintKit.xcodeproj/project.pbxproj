@@ -8,21 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		85706ABD1C5D4D0700AE86A1 /* CLKAnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85706ABC1C5D4D0700AE86A1 /* CLKAnchorGroup.swift */; };
-		85706ABE1C5D4D0700AE86A1 /* CLKAnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85706ABC1C5D4D0700AE86A1 /* CLKAnchorGroup.swift */; };
 		85706AC01C5D4D9000AE86A1 /* LayoutAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85706ABF1C5D4D9000AE86A1 /* LayoutAnchor.swift */; };
-		85706AC11C5D4D9000AE86A1 /* LayoutAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85706ABF1C5D4D9000AE86A1 /* LayoutAnchor.swift */; };
 		858D50251C5DA04800B8A432 /* CLKCenterAnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858D50241C5DA04800B8A432 /* CLKCenterAnchorGroup.swift */; };
-		858D50261C5DA04800B8A432 /* CLKCenterAnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858D50241C5DA04800B8A432 /* CLKCenterAnchorGroup.swift */; };
 		858D50281C5DA05500B8A432 /* CLKEdgesAnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858D50271C5DA05500B8A432 /* CLKEdgesAnchorGroup.swift */; };
-		858D50291C5DA05500B8A432 /* CLKEdgesAnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858D50271C5DA05500B8A432 /* CLKEdgesAnchorGroup.swift */; };
 		858D502B1C5DA06300B8A432 /* CLKSizeAnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858D502A1C5DA06300B8A432 /* CLKSizeAnchorGroup.swift */; };
-		858D502C1C5DA06300B8A432 /* CLKSizeAnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858D502A1C5DA06300B8A432 /* CLKSizeAnchorGroup.swift */; };
 		858D502E1C5DB19200B8A432 /* CLKAnchorGroupProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858D502D1C5DB19200B8A432 /* CLKAnchorGroupProtocols.swift */; };
-		858D502F1C5DB19200B8A432 /* CLKAnchorGroupProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858D502D1C5DB19200B8A432 /* CLKAnchorGroupProtocols.swift */; };
-		858D50311C5DD9A700B8A432 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 858D50301C5DD9A700B8A432 /* README.md */; };
-		858D50321C5DD9A700B8A432 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 858D50301C5DD9A700B8A432 /* README.md */; };
-		858D50341C5DF32900B8A432 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 858D50331C5DF32900B8A432 /* LICENSE */; };
-		858D50351C5DF32900B8A432 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 858D50331C5DF32900B8A432 /* LICENSE */; };
 		85CD09C21C58C14D001BEA9E /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CD09C11C58C14D001BEA9E /* TestViewController.m */; };
 		85E97D841C557E700067CE11 /* ConstraintKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E97D831C557E700067CE11 /* ConstraintKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85E97D8B1C557E700067CE11 /* ConstraintKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E97D801C557E700067CE11 /* ConstraintKit.framework */; };
@@ -35,8 +25,7 @@
 		85E97DB61C557E950067CE11 /* ConstraintKitHostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E97DB51C557E950067CE11 /* ConstraintKitHostTests.swift */; };
 		85E97DBF1C557ED80067CE11 /* NSLayoutConstraintConstraintKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E97DBE1C557ED80067CE11 /* NSLayoutConstraintConstraintKitExtensions.swift */; };
 		85E97DC11C557EEA0067CE11 /* UIKit+ConstraintKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E97DC01C557EEA0067CE11 /* UIKit+ConstraintKit.swift */; };
-		85E97DC21C557F320067CE11 /* NSLayoutConstraintConstraintKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E97DBE1C557ED80067CE11 /* NSLayoutConstraintConstraintKitExtensions.swift */; };
-		85E97DC31C557F320067CE11 /* UIKit+ConstraintKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E97DC01C557EEA0067CE11 /* UIKit+ConstraintKit.swift */; };
+		F39D3C840C23D1BDED25D1A6 /* Pods_ConstraintKitHost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E92914AB862C2491C4A243 /* Pods_ConstraintKitHost.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52B5EB4302AE5341E746E4A8 /* Pods-ConstraintKitHost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConstraintKitHost.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConstraintKitHost/Pods-ConstraintKitHost.release.xcconfig"; sourceTree = "<group>"; };
+		56E92914AB862C2491C4A243 /* Pods_ConstraintKitHost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConstraintKitHost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85706ABC1C5D4D0700AE86A1 /* CLKAnchorGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLKAnchorGroup.swift; sourceTree = "<group>"; };
 		85706ABF1C5D4D9000AE86A1 /* LayoutAnchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutAnchor.swift; sourceTree = "<group>"; };
 		858D50241C5DA04800B8A432 /* CLKCenterAnchorGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLKCenterAnchorGroup.swift; sourceTree = "<group>"; };
@@ -65,6 +56,7 @@
 		858D502D1C5DB19200B8A432 /* CLKAnchorGroupProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLKAnchorGroupProtocols.swift; sourceTree = "<group>"; };
 		858D50301C5DD9A700B8A432 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		858D50331C5DF32900B8A432 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		858D50361C5DF42500B8A432 /* ConstraintKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ConstraintKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		85CD09C01C58C14D001BEA9E /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		85CD09C11C58C14D001BEA9E /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		85E97D801C557E700067CE11 /* ConstraintKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConstraintKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +77,7 @@
 		85E97DB71C557E950067CE11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85E97DBE1C557ED80067CE11 /* NSLayoutConstraintConstraintKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintConstraintKitExtensions.swift; sourceTree = "<group>"; };
 		85E97DC01C557EEA0067CE11 /* UIKit+ConstraintKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+ConstraintKit.swift"; sourceTree = "<group>"; };
+		9D928F71DC52A5EA6C7B8C53 /* Pods-ConstraintKitHost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConstraintKitHost.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConstraintKitHost/Pods-ConstraintKitHost.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F39D3C840C23D1BDED25D1A6 /* Pods_ConstraintKitHost.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,9 +114,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C03FE3FE4AD4CFFC5DB469B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56E92914AB862C2491C4A243 /* Pods_ConstraintKitHost.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		825EBA8C3A89D956F187A7FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D928F71DC52A5EA6C7B8C53 /* Pods-ConstraintKitHost.debug.xcconfig */,
+				52B5EB4302AE5341E746E4A8 /* Pods-ConstraintKitHost.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		85E97D761C557E700067CE11 = {
 			isa = PBXGroup;
 			children = (
+				858D50361C5DF42500B8A432 /* ConstraintKit.podspec */,
 				858D50301C5DD9A700B8A432 /* README.md */,
 				858D50331C5DF32900B8A432 /* LICENSE */,
 				85E97D821C557E700067CE11 /* ConstraintKit */,
@@ -130,6 +142,8 @@
 				85E97D9F1C557E950067CE11 /* ConstraintKitHost */,
 				85E97DB41C557E950067CE11 /* ConstraintKitHostTests */,
 				85E97D811C557E700067CE11 /* Products */,
+				825EBA8C3A89D956F187A7FF /* Pods */,
+				7C03FE3FE4AD4CFFC5DB469B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -248,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85E97DB81C557E950067CE11 /* Build configuration list for PBXNativeTarget "ConstraintKitHost" */;
 			buildPhases = (
+				9624C75089CBB7222E84486A /* Check Pods Manifest.lock */,
 				85E97D9A1C557E950067CE11 /* Sources */,
 				85E97D9B1C557E950067CE11 /* Frameworks */,
 				85E97D9C1C557E950067CE11 /* Resources */,
+				33727FFE5A2247A6AE3C31AD /* Embed Pods Frameworks */,
+				D5B4E7C9A06574A8BEAB608F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -330,7 +347,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				858D50341C5DF32900B8A432 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +363,6 @@
 			files = (
 				85E97DAB1C557E950067CE11 /* LaunchScreen.storyboard in Resources */,
 				85E97DA81C557E950067CE11 /* Assets.xcassets in Resources */,
-				858D50351C5DF32900B8A432 /* LICENSE in Resources */,
 				85E97DA61C557E950067CE11 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,13 +376,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33727FFE5A2247A6AE3C31AD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConstraintKitHost/Pods-ConstraintKitHost-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9624C75089CBB7222E84486A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5B4E7C9A06574A8BEAB608F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConstraintKitHost/Pods-ConstraintKitHost-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		85E97D7B1C557E700067CE11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				858D502B1C5DA06300B8A432 /* CLKSizeAnchorGroup.swift in Sources */,
-				858D50311C5DD9A700B8A432 /* README.md in Sources */,
 				85706ABD1C5D4D0700AE86A1 /* CLKAnchorGroup.swift in Sources */,
 				858D50251C5DA04800B8A432 /* CLKCenterAnchorGroup.swift in Sources */,
 				858D502E1C5DB19200B8A432 /* CLKAnchorGroupProtocols.swift in Sources */,
@@ -390,17 +452,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				858D50291C5DA05500B8A432 /* CLKEdgesAnchorGroup.swift in Sources */,
 				85CD09C21C58C14D001BEA9E /* TestViewController.m in Sources */,
-				85E97DC31C557F320067CE11 /* UIKit+ConstraintKit.swift in Sources */,
-				85706ABE1C5D4D0700AE86A1 /* CLKAnchorGroup.swift in Sources */,
-				858D50321C5DD9A700B8A432 /* README.md in Sources */,
 				85E97DA31C557E950067CE11 /* ViewController.swift in Sources */,
-				858D502C1C5DA06300B8A432 /* CLKSizeAnchorGroup.swift in Sources */,
-				858D502F1C5DB19200B8A432 /* CLKAnchorGroupProtocols.swift in Sources */,
-				858D50261C5DA04800B8A432 /* CLKCenterAnchorGroup.swift in Sources */,
-				85E97DC21C557F320067CE11 /* NSLayoutConstraintConstraintKitExtensions.swift in Sources */,
-				85706AC11C5D4D9000AE86A1 /* LayoutAnchor.swift in Sources */,
 				85E97DA11C557E950067CE11 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -594,6 +647,7 @@
 		};
 		85E97DB91C557E950067CE11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D928F71DC52A5EA6C7B8C53 /* Pods-ConstraintKitHost.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -608,6 +662,7 @@
 		};
 		85E97DBA1C557E950067CE11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52B5EB4302AE5341E746E4A8 /* Pods-ConstraintKitHost.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

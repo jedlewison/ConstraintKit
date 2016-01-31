@@ -7,7 +7,7 @@
 //
 
 #import "TestViewController.h"
-#import "ConstraintKitHost-Swift.h"
+@import ConstraintKit;
 
 @interface TestViewController ()
 
