@@ -2,8 +2,8 @@
 //  TestViewController.m
 //  ConstraintKit
 //
-//  Created by Jed Lewison on 1/27/16.
-//  Copyright © 2016 Magic App Factory. All rights reserved.
+//  Created by Jed Lewison / Magic App Factory on 1/27/16.
+//  MIT License All rights reserved.
 //
 
 #import "TestViewController.h"

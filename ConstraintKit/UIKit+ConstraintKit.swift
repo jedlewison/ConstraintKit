@@ -2,14 +2,14 @@
 //  UIViewConstraintKitExtensions.swift
 //  ConstraintKit
 //
-//  Created by Jed Lewison on 1/24/16.
-//  Copyright © 2016 Magic App Factory. All rights reserved.
+//  Created by Jed Lewison / Magic App Factory on 1/24/16.
+//  MIT License.
 //
 
 import UIKit
 
 
-public protocol CLKAnchorable: NSObjectProtocol {
+internal protocol CLKAnchorable: NSObjectProtocol {
 
     var clk_edgesAnchor: CLKEdgesAnchorGroup { get }
     var clk_sizeAnchor: CLKSizeAnchorGroup { get }
@@ -17,6 +17,7 @@ public protocol CLKAnchorable: NSObjectProtocol {
 
 }
 
+/// Anchor groups for use with views.
 extension UIView: CLKAnchorable {
 
     /// An anchor group representing the view's edges.
@@ -36,6 +37,7 @@ extension UIView: CLKAnchorable {
 
 }
 
+/// Anchor groups for use with layout guides. The layout guide must be installed for the anchor group to generate constraints.
 extension UILayoutGuide: CLKAnchorable {
 
     /// An anchor group representing the guide's edges.
@@ -55,6 +57,7 @@ extension UILayoutGuide: CLKAnchorable {
 
 }
 
+/// Anchor groups for use with view controller. The view controller's view must be loaded for the anchor group to generate constraints.
 extension UIViewController: CLKAnchorable {
 
     /// An anchor group representing the viewController's view's horizontal edges and top and bottom layout guides.

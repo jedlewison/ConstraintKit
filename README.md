@@ -33,3 +33,5 @@ When ConstraintKit activates constraints, it always returns the constraints it a
 You can also use ConstraintKit to intelligently activate, deactive, and update individual constraints no matter how they were created. Simply use the ```clk_activate``` extension on NSLayoutConstraint.
 
 ConstraintKit always makes sure to turn off ```translatesAutoresizingMaskIntoConstraints``` on the appropriate views.
+
+ConstraintKit is under the MIT license.

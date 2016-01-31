@@ -21,6 +21,8 @@
 		858D502F1C5DB19200B8A432 /* CLKAnchorGroupProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858D502D1C5DB19200B8A432 /* CLKAnchorGroupProtocols.swift */; };
 		858D50311C5DD9A700B8A432 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 858D50301C5DD9A700B8A432 /* README.md */; };
 		858D50321C5DD9A700B8A432 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 858D50301C5DD9A700B8A432 /* README.md */; };
+		858D50341C5DF32900B8A432 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 858D50331C5DF32900B8A432 /* LICENSE */; };
+		858D50351C5DF32900B8A432 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 858D50331C5DF32900B8A432 /* LICENSE */; };
 		85CD09C21C58C14D001BEA9E /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CD09C11C58C14D001BEA9E /* TestViewController.m */; };
 		85E97D841C557E700067CE11 /* ConstraintKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E97D831C557E700067CE11 /* ConstraintKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85E97D8B1C557E700067CE11 /* ConstraintKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E97D801C557E700067CE11 /* ConstraintKit.framework */; };
@@ -62,6 +64,7 @@
 		858D502A1C5DA06300B8A432 /* CLKSizeAnchorGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLKSizeAnchorGroup.swift; sourceTree = "<group>"; };
 		858D502D1C5DB19200B8A432 /* CLKAnchorGroupProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLKAnchorGroupProtocols.swift; sourceTree = "<group>"; };
 		858D50301C5DD9A700B8A432 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		858D50331C5DF32900B8A432 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		85CD09C01C58C14D001BEA9E /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		85CD09C11C58C14D001BEA9E /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		85E97D801C557E700067CE11 /* ConstraintKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConstraintKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				858D50301C5DD9A700B8A432 /* README.md */,
+				858D50331C5DF32900B8A432 /* LICENSE */,
 				85E97D821C557E700067CE11 /* ConstraintKit */,
 				85E97D8E1C557E700067CE11 /* ConstraintKitTests */,
 				85E97D9F1C557E950067CE11 /* ConstraintKitHost */,
@@ -326,6 +330,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				858D50341C5DF32900B8A432 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +347,7 @@
 			files = (
 				85E97DAB1C557E950067CE11 /* LaunchScreen.storyboard in Resources */,
 				85E97DA81C557E950067CE11 /* Assets.xcassets in Resources */,
+				858D50351C5DF32900B8A432 /* LICENSE in Resources */,
 				85E97DA61C557E950067CE11 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

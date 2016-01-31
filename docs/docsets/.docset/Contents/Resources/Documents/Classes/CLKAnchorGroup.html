@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CLKAnchorGroup Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/CLKAnchorGroup" class="dashAnchor"></a>
+    <a title="CLKAnchorGroup Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (100% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        CLKAnchorGroup Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/CLKAnchorGroup.html">CLKAnchorGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CLKCenterAnchorGroup.html">CLKCenterAnchorGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CLKEdgesAnchorGroup.html">CLKEdgesAnchorGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CLKSizeAnchorGroup.html">CLKSizeAnchorGroup</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/CLKEquivalentConstraintPolicy.html">CLKEquivalentConstraintPolicy</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/NSLayoutConstraint.html">NSLayoutConstraint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UILayoutGuide.html">UILayoutGuide</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>CLKAnchorGroup</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">CLKAnchorGroup</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>A CLKAnchorGroup represents a group of layout anchors. Like NSLayoutAnchor it is a factory class with the primary purpose of generating constraints. Use the <code>clk_edgesAnchor</code>, <code>clk_centerAnchor</code>, and <code>clk_sizeAnchor</code> properties of <code><a href="../Extensions/UIView.html">UIView</a></code>, and <code><a href="../Extensions/UIViewController.html">UIViewController</a></code>, and <code><a href="../Extensions/UILayoutGuide.html">UILayoutGuide</a></code> instances to use anchor groups to create, activate, and deactive constraints.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC13ConstraintKit14CLKAnchorGroup18constraintsEqualToFS0_FCSo6UIViewDS0_"></a>
+                    <a name="//apple_ref/swift/Method/constraintsEqualTo(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC13ConstraintKit14CLKAnchorGroup18constraintsEqualToFS0_FCSo6UIViewDS0_">constraintsEqualTo(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies that constraints should be generated defining the anchor group&rsquo;s attributes as equal to the view&rsquo;s anchor group of the same kind.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">constraintsEqualTo</span><span class="p">(</span><span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC13ConstraintKit14CLKAnchorGroup31constraintsGreaterThanOrEqualToFS0_FCSo6UIViewDS0_"></a>
+                    <a name="//apple_ref/swift/Method/constraintsGreaterThanOrEqualTo(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC13ConstraintKit14CLKAnchorGroup31constraintsGreaterThanOrEqualToFS0_FCSo6UIViewDS0_">constraintsGreaterThanOrEqualTo(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies that constraints should be generated defining the anchor group&rsquo;s attributes as greater than or equal to the view&rsquo;s anchor group of the same kind.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">constraintsGreaterThanOrEqualTo</span><span class="p">(</span><span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC13ConstraintKit14CLKAnchorGroup28constraintsLessThanOrEqualToFS0_FCSo6UIViewDS0_"></a>
+                    <a name="//apple_ref/swift/Method/constraintsLessThanOrEqualTo(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC13ConstraintKit14CLKAnchorGroup28constraintsLessThanOrEqualToFS0_FCSo6UIViewDS0_">constraintsLessThanOrEqualTo(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies that constraints should be generated defining the anchor group&rsquo;s attributes as less than or equal to the view&rsquo;s anchor group of the same kind.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">constraintsLessThanOrEqualTo</span><span class="p">(</span><span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC13ConstraintKit14CLKAnchorGroup18constraintsEqualToFS0_FCSo16UIViewControllerDS0_"></a>
+                    <a name="//apple_ref/swift/Method/constraintsEqualTo(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC13ConstraintKit14CLKAnchorGroup18constraintsEqualToFS0_FCSo16UIViewControllerDS0_">constraintsEqualTo(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies that constraints should be generated defining the anchor group&rsquo;s attributes as equal to the view controller&rsquo;s anchor group of the same kind.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">constraintsEqualTo</span><span class="p">(</span><span class="nv">viewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC13ConstraintKit14CLKAnchorGroup31constraintsGreaterThanOrEqualToFS0_FCSo16UIViewControllerDS0_"></a>
+                    <a name="//apple_ref/swift/Method/constraintsGreaterThanOrEqualTo(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC13ConstraintKit14CLKAnchorGroup31constraintsGreaterThanOrEqualToFS0_FCSo16UIViewControllerDS0_">constraintsGreaterThanOrEqualTo(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies that constraints should be generated defining the anchor group&rsquo;s attributes as greater than or equal to the view controller&rsquo;s anchor group of the same kind.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">constraintsGreaterThanOrEqualTo</span><span class="p">(</span><span class="nv">viewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC13ConstraintKit14CLKAnchorGroup28constraintsLessThanOrEqualToFS0_FCSo16UIViewControllerDS0_"></a>
+                    <a name="//apple_ref/swift/Method/constraintsLessThanOrEqualTo(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC13ConstraintKit14CLKAnchorGroup28constraintsLessThanOrEqualToFS0_FCSo16UIViewControllerDS0_">constraintsLessThanOrEqualTo(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies that constraints should be generated defining the anchor group&rsquo;s attributes as less than or equal to the layout guide&rsquo;s anchor group of the same kind.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">constraintsLessThanOrEqualTo</span><span class="p">(</span><span class="nv">viewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC13ConstraintKit14CLKAnchorGroup18constraintsEqualToFS0_FCSo13UILayoutGuideGSqDS0__"></a>
+                    <a name="//apple_ref/swift/Method/constraintsEqualTo(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC13ConstraintKit14CLKAnchorGroup18constraintsEqualToFS0_FCSo13UILayoutGuideGSqDS0__">constraintsEqualTo(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies that constraints should be generated defining the anchor group&rsquo;s attributes as equal to the layout guide&rsquo;s anchor group of the same kind.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">constraintsEqualTo</span><span class="p">(</span><span class="nv">layoutGuide</span><span class="p">:</span> <span class="kt">UILayoutGuide</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC13ConstraintKit14CLKAnchorGroup31constraintsGreaterThanOrEqualToFS0_FCSo13UILayoutGuideGSqDS0__"></a>
+                    <a name="//apple_ref/swift/Method/constraintsGreaterThanOrEqualTo(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC13ConstraintKit14CLKAnchorGroup31constraintsGreaterThanOrEqualToFS0_FCSo13UILayoutGuideGSqDS0__">constraintsGreaterThanOrEqualTo(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies that constraints should be generated defining the anchor group&rsquo;s attributes as greater than or equal to the layout guide&rsquo;s anchor group of the same kind.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">constraintsGreaterThanOrEqualTo</span><span class="p">(</span><span class="nv">layoutGuide</span><span class="p">:</span> <span class="kt">UILayoutGuide</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC13ConstraintKit14CLKAnchorGroup28constraintsLessThanOrEqualToFS0_FCSo13UILayoutGuideGSqDS0__"></a>
+                    <a name="//apple_ref/swift/Method/constraintsLessThanOrEqualTo(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC13ConstraintKit14CLKAnchorGroup28constraintsLessThanOrEqualToFS0_FCSo13UILayoutGuideGSqDS0__">constraintsLessThanOrEqualTo(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies that constraints should be generated defining the anchor group&rsquo;s attributes as less than or equal to the layout guide&rsquo;s anchor group of the same kind.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">constraintsLessThanOrEqualTo</span><span class="p">(</span><span class="nv">layoutGuide</span><span class="p">:</span> <span class="kt">UILayoutGuide</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC13ConstraintKit14CLKAnchorGroup8activateFS0_FT_GSaCSo18NSLayoutConstraint_"></a>
+                    <a name="//apple_ref/swift/Method/activate()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC13ConstraintKit14CLKAnchorGroup8activateFS0_FT_GSaCSo18NSLayoutConstraint_">activate()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Activates constraints defined by the anchor group.
+Disables <code>translatesAutoresizingMaskIntoConstraints</code> on views as needed.
+Uses the <code>.UpdateExisting</code> constraint activation policy, so when possible, existing constraints will be used with updated constants and/or priorities.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">activate</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">NSLayoutConstraint</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The newly activated or updated constraints.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC13ConstraintKit14CLKAnchorGroup10deactivateFS0_FT_T_"></a>
+                    <a name="//apple_ref/swift/Method/deactivate()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC13ConstraintKit14CLKAnchorGroup10deactivateFS0_FT_T_">deactivate()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Deactivates any existing constraints that would have been activated by calling <code><a href="../Classes/CLKAnchorGroup.html#/s:FC13ConstraintKit14CLKAnchorGroup8activateFS0_FT_GSaCSo18NSLayoutConstraint_">activate()</a></code>.
+Useful when reconfiguring constraints.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">deactivate</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC13ConstraintKit14CLKAnchorGroup8activateFS0_FOS_29CLKEquivalentConstraintPolicyGSaCSo18NSLayoutConstraint_"></a>
+                    <a name="//apple_ref/swift/Method/activate(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC13ConstraintKit14CLKAnchorGroup8activateFS0_FOS_29CLKEquivalentConstraintPolicyGSaCSo18NSLayoutConstraint_">activate(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Activates constraints defined by the anchor group.
+Disables <code>translatesAutoresizingMaskIntoConstraints</code> on views as needed.
+With the <code>.UpdateExisting</code> constraint activation policy, existing constraints will be used with updated constants and/or priorities whenever possible.
+With the <code>.IgnoreExisting</code> constraint activation policy, existing constraints will not be affected. Use this for installing multiple similar constraints with different layout priorities.
+- returns: The newly activated or updated constraints.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">activate</span><span class="p">(</span><span class="nv">policy</span><span class="p">:</span> <span class="kt">CLKEquivalentConstraintPolicy</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">NSLayoutConstraint</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The newly activated or updated constraints.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2016-01-30)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.5.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

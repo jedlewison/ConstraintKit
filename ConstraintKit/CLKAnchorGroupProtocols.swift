@@ -2,19 +2,21 @@
 //  CLKAnchorGroupProtocols.swift
 //  ConstraintKit
 //
-//  Created by Jed Lewison on 1/30/16.
-//  Copyright © 2016 Magic App Factory. All rights reserved.
+//  Created by Jed Lewison / Magic App Factory on 1/30/16.
+//  MIT License All rights reserved.
 //
 
 import UIKit
 
 /// `CLKEquivalentConstraintPolicy` defines how ConstraintKit handles existing constraints when activating or updating constraints.
 @objc public enum CLKEquivalentConstraintPolicy: Int {
-    case IgnoreExisting /// Completely ignore existing constraints. Useful when installing constraints with multiple priorities.
-    case UpdateExisting /// Default. Update existing constraints when possible and remove duplicates.
+    /// Completely ignore existing constraints. Useful when installing constraints with multiple priorities.
+    case IgnoreExisting
+    /// Default. Update existing constraints when possible and remove duplicates.
+    case UpdateExisting
 }
 
-protocol CLKAnchorGroupProtocol: NSObjectProtocol {
+internal protocol CLKAnchorGroupProtocol {
 
     func activate() -> [NSLayoutConstraint]
     func activate(policy: CLKEquivalentConstraintPolicy) -> [NSLayoutConstraint]
@@ -34,7 +36,7 @@ protocol CLKAnchorGroupProtocol: NSObjectProtocol {
 
 }
 
-protocol CLKAnchorGroupSubclassProtocol: CLKAnchorGroupProtocol {
+internal protocol CLKAnchorGroupSubclassProtocol: CLKAnchorGroupProtocol {
 
     typealias Constant
 
@@ -43,7 +45,7 @@ protocol CLKAnchorGroupSubclassProtocol: CLKAnchorGroupProtocol {
     var anchors: [LayoutAnchor] { get }
 }
 
-protocol CLKAnchorDimensionGroupProtocol: CLKAnchorGroupSubclassProtocol {
+internal protocol CLKAnchorDimensionGroupProtocol: CLKAnchorGroupSubclassProtocol {
 
     func constraintsEqualTo(constant: Constant) -> Self
     func constraintsGreaterThanOrEqualTo(constant: Constant) -> Self

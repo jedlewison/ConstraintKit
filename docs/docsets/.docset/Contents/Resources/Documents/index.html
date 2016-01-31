@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html"> Docs</a> (100% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html"> Reference</a>
+        <img id="carat" src="img/carat.png" />
+          Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/CLKAnchorGroup.html">CLKAnchorGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CLKCenterAnchorGroup.html">CLKCenterAnchorGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CLKEdgesAnchorGroup.html">CLKEdgesAnchorGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CLKSizeAnchorGroup.html">CLKSizeAnchorGroup</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/CLKEquivalentConstraintPolicy.html">CLKEquivalentConstraintPolicy</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Extensions/NSLayoutConstraint.html">NSLayoutConstraint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/UILayoutGuide.html">UILayoutGuide</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/UIView.html">UIView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/UIViewController.html">UIViewController</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <a href='#constraintkit' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h1 id='constraintkit'>ConstraintKit</h1>
+
+<p>ConstraintKit makes it easy to activate, deactivate, and update layout constraints on iOS in Swift and Objective-C. It intelligently disables <code>translatesAutoresizingMaskIntoConstraints</code> on views participating in auto-layout, lets you update installed constraints without storing references to them, and lets you activate individual constraints in a single line of code, but it&rsquo;s most powerful feature is that it lets define the layout for an entire view in just one line.</p>
+
+<p>Let&rsquo;s say you&rsquo;ve added a view to your view controller&rsquo;s main view, and you want it to fill the entire view between the top and bottom layout guides. Here&rsquo;s how you do it with ConstraintKit using Swift&hellip;</p>
+<pre class="highlight swift"><code><span class="n">newView</span><span class="o">.</span><span class="n">clk_edgesAnchor</span><span class="o">.</span><span class="nf">constraintsEqualTo</span><span class="p">(</span><span class="k">self</span><span class="p">)</span><span class="o">.</span><span class="nf">activate</span><span class="p">()</span>
+</code></pre>
+
+<p>&hellip;and in Objective-C:</p>
+<pre class="highlight plaintext"><code>[[[newView clk_edgesAnchor] constraintsEqualToViewController:self] activate];
+</code></pre>
+
+<p>Lets say you wanted to add margins to your newView. Simply create UIEdgeInsets defining the margin and use those when activating the constraints:</p>
+<pre class="highlight swift"><code><span class="n">newView</span><span class="o">.</span><span class="n">clk_edgesAnchor</span><span class="o">.</span><span class="nf">constraintsEqualTo</span><span class="p">(</span><span class="k">self</span><span class="p">)</span><span class="o">.</span><span class="nf">with</span><span class="p">(</span><span class="n">insets</span><span class="p">)</span><span class="o">.</span><span class="nf">activate</span><span class="p">()</span>
+</code></pre>
+
+<p>&hellip;and in Objective-C:</p>
+<pre class="highlight plaintext"><code>[[[newView clk_edgesAnchor] constraintsEqualToViewController:self] withConstant:insets priority:UILayoutPriorityRequired];
+</code></pre>
+
+<p>One nice thing with ConstraintKit is that you already installed similar constraints, it will update them to achieve your new settings. Of course, you can disable this if you want to install multiple similar constraints of different priority.</p>
+
+<p>When ConstraintKit activates constraints, it always returns the constraints it activated in case you want to keep references to them. In many cases, you won&rsquo;t need to because ConstraintKit is smart about updating existing constrants when possible.</p>
+
+<p>You can also use ConstraintKit to intelligently activate, deactive, and update individual constraints no matter how they were created. Simply use the <code>clk_activate</code> extension on NSLayoutConstraint.</p>
+
+<p>ConstraintKit always makes sure to turn off <code>translatesAutoresizingMaskIntoConstraints</code> on the appropriate views.</p>
+
+<p>ConstraintKit is under the MIT license.</p>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2016-01-30)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.5.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
